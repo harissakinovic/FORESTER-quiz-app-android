@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundeasy"
+    tools:context="my.project.foresterApp.newGame.newGame">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+
+        <TextView
+            android:id="@+id/textViewEasy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:onClick="easy"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="70dp"
+            android:paddingLeft="70dp"
+            android:text="EASY"
+            android:background="@drawable/shapemain"/>
+
+        <TextView
+            android:id="@+id/textViewMedium"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:onClick="medium"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="55dp"
+            android:paddingLeft="55dp"
+            android:text="MEDIUM"
+            android:background="@drawable/shapemain"/>
+
+        <TextView
+            android:id="@+id/textViewHard"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:onClick="hard"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="65dp"
+            android:paddingLeft="65dp"
+            android:text="HARD"
+            android:background="@drawable/shapemain"/>
+
+        <TextView
+            android:id="@+id/textViewNGBack"
+            android:layout_marginTop="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:onClick="back"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="65dp"
+            android:paddingLeft="65dp"
+            android:text="BACK"
+            android:background="@drawable/shapemain"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.project.foresterApp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Forester">
+        <activity android:name="my.project.foresterApp.credits.credits"></activity>
+        <activity
+            android:name="my.project.foresterApp.results.results"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="my.project.foresterApp.easyLevel.easy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="my.project.foresterApp.questions.showingQuestions"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="my.project.foresterApp.newGame.newGame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="my.project.foresterApp.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

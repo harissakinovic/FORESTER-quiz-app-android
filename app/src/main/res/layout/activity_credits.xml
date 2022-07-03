@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="my.project.foresterApp.credits.credits"
+    android:background="@drawable/credits">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textMultiLine"
+        android:text="\n\n\n\nLiteratura: \n
+- Atlas drveća i grmlja - ČEDOMIL ŠILIĆ / IP SVJETLOST Sarajevo 1990 godina. \n\n
+Stručna pomoć i savjetovanje: \n
+- MA.šum. Aldin Osmančević \n\n
+Izvori slika: \n
+- MA.šum. Aldin Osmančevic\n
+- https://www.google.com \n\n
+Logo i ikone:\n
+- https://www.freelogodesign.org/ \n\n
+Zvuk:\n
+- https://freesound.org/"
+        android:textColor="@color/black"
+        android:layout_marginTop="35dp"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

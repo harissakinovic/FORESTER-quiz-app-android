@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "635548300923",
+    "project_id": "forester-d75ff",
+    "storage_bucket": "forester-d75ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635548300923:android:48db0bdedc67908da914de",
+        "android_client_info": {
+          "package_name": "com.example.forester"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635548300923-fhbn9m3o5mf74askih4cmdgu8sfpfqek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7OrgoxKiBtUvyLrEBe5Z68bWzMIgKs2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635548300923-fhbn9m3o5mf74askih4cmdgu8sfpfqek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635548300923:android:e7198a37619d3aa6a914de",
+        "android_client_info": {
+          "package_name": "my.project.foresterApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635548300923-fhbn9m3o5mf74askih4cmdgu8sfpfqek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7OrgoxKiBtUvyLrEBe5Z68bWzMIgKs2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635548300923-fhbn9m3o5mf74askih4cmdgu8sfpfqek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
